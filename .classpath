@@ -2,7 +2,10 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="src" path="src-dmxmljson-gen"/>
 	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/dm-xml-json-lib-1.0.20140408.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/mail.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
